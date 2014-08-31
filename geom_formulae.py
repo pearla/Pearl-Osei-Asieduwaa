@@ -157,7 +157,7 @@ def trapezium_area(length: int, width: int, height: int) -> Number:
     >>>trapezium_area(5, 3, 6)
     24
     """
-    return (length+width)*(1.0/2.0)*height
+    return 0.5*(length+width) * height
 
 
 if __name__ == "__main__":
