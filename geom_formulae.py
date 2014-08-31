@@ -27,7 +27,7 @@ def cone_volume(height: int, radius: int) -> Number:
     >>>cone_volume(10, 5)
     261.79938779914943
     """
-    return (mp.pi*radius**2*height)/3
+    return (mp.pi*radius**2*height) * 1.0/3.0
 
 
 def cuboid_surface_area(length: int, width: int, height: int) -> Number:
@@ -86,7 +86,7 @@ def triangle_area(base: int, height: int) -> Number:
     >>>triangle_area(6, 4)
     12
     """
-    return (1/2)*(base*height)
+    return (1.0/2.0)*(base*height)
 
 
 def triangle_area1(base: int,  side1: int, side2: int) -> Number:
@@ -99,7 +99,7 @@ def triangle_area1(base: int,  side1: int, side2: int) -> Number:
     >>>triangle_area(6,  5, 5)
     12
     """
-    s = 1/2*(side1+side2+base)
+    s = 1.0/2.0*(side1+side2+base)
     return math.sqrt(s*(s-side1)*(s-side2)*(s-base))
 
 
@@ -157,7 +157,7 @@ def trapezium_area(length: int, width: int, height: int) -> Number:
     >>>trapezium_area(5, 3, 6)
     45
     """
-    return (length*width*height)*1/2
+    return (length*width*height)*1.0/2.0
 
 
 if __name__ == "__main__":
