@@ -3,6 +3,7 @@ __author__ = 'pearl'
 from numbers import Number
 
 
+
 def square_perimeter(side: Number) -> Number:
     """
     Calculate perimeter of a square from side length .
