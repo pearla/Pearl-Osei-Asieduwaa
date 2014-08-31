@@ -51,7 +51,7 @@ def cube_volume(edge: Number) -> Number:
     >>>cube_volume(6)
     216
     """
-    return edge*edge*edge
+    return edge**3
 
 
 def sphere_surface_area(radius: int) -> Number:
