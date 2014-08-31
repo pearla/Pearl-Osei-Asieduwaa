@@ -69,7 +69,7 @@ def rectangle_area(width: int, length: int)-> Number:
     """
     calculate the area of a rectangle
     :param width:the width of the rectangle
-    :param Length:the length of the rectangle
+    :param length:the length of the rectangle
     :return:area(unit^2 from width, length)
     >>> rectangle_area(5, 6)
     30
